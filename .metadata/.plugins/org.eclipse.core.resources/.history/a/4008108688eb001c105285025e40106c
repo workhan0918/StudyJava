@@ -1,0 +1,12 @@
+package com.varxyz.jv200.mod006;
+
+public class SmartPhone extends Product {
+
+	public SmartPhone (String name) {
+		super(name);
+	}
+	
+	public double getPrice() {
+		return 1000.0;
+	}
+}
