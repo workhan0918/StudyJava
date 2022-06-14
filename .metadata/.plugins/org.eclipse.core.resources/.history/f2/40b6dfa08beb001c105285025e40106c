@@ -22,7 +22,6 @@ public class Cart {
 			sb.append("Name: ");
 			sb.append(p.getName());
 			sb.append("\nPrice: ");
-			sb.append(p.getPrice());
 			
 			if (p instanceof SmartPhone) {
 				SmartPhone s = (SmartPhone) p;

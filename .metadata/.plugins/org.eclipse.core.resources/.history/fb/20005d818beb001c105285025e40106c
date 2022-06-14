@@ -22,14 +22,13 @@ public class Cart {
 			sb.append("Name: ");
 			sb.append(p.getName());
 			sb.append("\nPrice: ");
-			sb.append(p.getPrice());
 			
 			if (p instanceof SmartPhone) {
 				SmartPhone s = (SmartPhone) p;
 				sb.append("\nPlatform: ");
 				sb.append(s.getPlatform());
 			}
-			sb.append("\n-------------------------\n");
+			sb.append("\n");
 		}
 		return sb.toString();
 	}
