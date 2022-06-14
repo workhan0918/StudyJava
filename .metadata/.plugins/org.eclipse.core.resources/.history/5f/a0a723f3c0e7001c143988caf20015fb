@@ -1,0 +1,19 @@
+package com.varxyz.banking.mod001;
+
+public class Account {
+	public Account(double initBalance) {
+		
+	}
+	
+	public double getBalance() {
+		
+	}
+	
+	public void deposit(double amt) {
+		
+	}
+	
+	public void withdraw(double amt) {
+		
+	}
+}

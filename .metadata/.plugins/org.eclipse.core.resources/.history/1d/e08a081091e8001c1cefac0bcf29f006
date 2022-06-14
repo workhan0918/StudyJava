@@ -1,0 +1,53 @@
+package com.varxyz.jv200.mod003;
+
+public class PassTest {
+	public static void changeInt(int value) {
+		value = 55;
+	}
+	
+	public static void changeObjectRef(MyDate ref) {
+		ref = new MyDate(1, 1, 2000);
+	}
+	
+	public static void changeObjectAttr(MyDate ref) {
+		ref.setDay(4);
+	}
+	
+	public static void main (String [] args) {
+		MyDate date;
+		int val;
+		val = 11;
+		changeInt(val);
+		System.out.println("int value is " + val);
+		
+		date = new MyDate(22, 7, 1964);
+		changeObjectRef(date);
+		System.out.println("MyDate is " + date);
+	
+		changeObjectAttr(date);
+		System.out.println("MyDate is " + date);
+		
+		for (int i = 1; i <= 9; i++) {
+			for (int j = 2; j <= 9; j++) {
+				System.out.print(j + "X" + i + "=" + i*j+"\t");					
+			}
+			System.out.println();
+		}
+		
+		int count = 1;
+		int leng = 1000;
+		for (int i = 2; i <= leng; i++) {
+			if ( i == 2 ) {
+				System.out.println(i);
+			}else if ( i == 3 ) {
+				System.out.println(i);
+			}else if ( i % 2 != 0) {
+				if ( i % 3 != 0) {
+					if ( i % 5 != 0) {
+						System.out.println(i);											
+					}
+				}
+			}
+		}
+	}
+}

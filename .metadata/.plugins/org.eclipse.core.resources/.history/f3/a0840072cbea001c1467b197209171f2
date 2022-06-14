@@ -1,0 +1,30 @@
+package com.varxyz.jv200.mod003;
+
+public class ArrayCopyExercise {
+	public static void main(String[] args) {
+		int[] nums = new int[] { 1, 2, 3, 4, 5 }; 
+		int[] target = new int[] { 1, 2, 5, 7, 10 };
+		
+		arrayJudge(nums, target);
+	}
+	
+	public static String arrayJudge(int[] nums, int[] target) {
+		int count = 0;
+		String eq = 1;
+		for (int i = 0; i < target.length; i++) {
+			for (int j = 0; j < nums.length; j++) {
+				if ( target[i] == nums[j] ) {
+					count ++;
+				}
+			}
+		}
+		if (count == target.length) {
+			return eq;
+		}else if ( count < target.length || count > target.length ) {
+			return "걸친다";
+		}else if ( count == 0 ) {
+			return "아무것도 포함되지않는다";
+		}
+		return null;
+	}
+}
