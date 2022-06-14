@@ -1,0 +1,14 @@
+package com.varxyz.jv200.mod006;
+
+public class MyDate {
+	protected int day;
+	protected int month;
+	protected int year;
+	
+	public MyDate(int day, int month, int year) {
+		this.day = day;
+		this.month = month;
+		this.year = year;
+	}
+	
+}

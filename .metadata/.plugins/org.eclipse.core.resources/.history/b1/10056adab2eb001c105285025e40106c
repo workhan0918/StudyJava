@@ -1,0 +1,11 @@
+package com.varxyz.jv200.mod006;
+
+public class EqaulsOverride {
+	protected String myDate;
+	public boolean equals(String date) {
+		if( myDate == date ) {
+			return true;
+		}
+		return false;
+	}
+}

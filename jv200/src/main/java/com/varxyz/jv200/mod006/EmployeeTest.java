@@ -7,7 +7,7 @@ public class EmployeeTest {
 		Director e = new Director();
 		e.name = "유비";
 		e.salary = 1000.0;
-		e.birthDate = new Date();
+//		e.birthDate = new MyDate();
 		String detail = e.getDetails();
 		System.out.println(e.birthDate);
 		

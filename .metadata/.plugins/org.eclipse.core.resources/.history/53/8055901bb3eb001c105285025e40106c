@@ -1,0 +1,13 @@
+package com.varxyz.jv200.mod006;
+
+public class EqaulsOverride {
+	protected String myDate;
+	public Employee equals(String date) {
+		String result = "true";
+		System.out.println(date + myDate);
+		if( myDate == date ) {
+			
+		}
+		return result;
+	}
+}

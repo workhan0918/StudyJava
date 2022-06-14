@@ -1,7 +1,7 @@
 package com.varxyz.jv200.mod006;
 
 public class Cart {
-	private Product[] products = new Product[3];
+	private Product[] products = new Product[4];
 	
 	public void addProduct (Product p) {
 		for (int i = 0; i < products.length; i++) {
