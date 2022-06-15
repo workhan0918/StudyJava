@@ -1,0 +1,8 @@
+package com.varxyz.jv200.mod007;
+
+public class Animal {
+	public String type;
+	public boolean eatable;
+	
+	public abstract void makeSound();
+}
