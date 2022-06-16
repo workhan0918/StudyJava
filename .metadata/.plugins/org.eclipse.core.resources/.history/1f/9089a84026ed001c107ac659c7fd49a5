@@ -1,0 +1,19 @@
+package com.varxyz.jv200.mod007;
+
+public class Libary {
+	public Book Lbook;
+	public int[] serialArray = new int[100];
+	
+	public void getBook(int serial) {
+		if (serial == Lbook.getSerial()) {
+			System.out.println("빌리시는 책 제목 : " + Lbook.getName() + 
+					"\n책 시리얼 : " + serialArray[0]);
+		}
+	}
+	
+	public void addBook(Book book) {
+		this.Lbook = book;
+		serialArray[0] = Lbook.getSerial();
+	}
+	
+}

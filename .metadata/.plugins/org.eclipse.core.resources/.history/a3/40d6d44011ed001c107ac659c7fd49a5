@@ -1,0 +1,23 @@
+package com.varxyz.jv200.mod007;
+
+public class Bird implements Flyer{
+
+	@Override
+	public void fly() {
+		System.out.println("새 : 날기");
+		
+	}
+
+	@Override
+	public void take() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void land() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

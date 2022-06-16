@@ -1,0 +1,15 @@
+package com.varxyz.jv200.mod007;
+
+public class Libary {
+	public Book Lbook;
+	
+	public Book getBook() {
+		return Lbook;
+	}
+	
+	public void addBook(Book book) {
+		this.Lbook = book;
+		System.out.println(book.toString());
+	}
+	
+}

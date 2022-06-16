@@ -1,0 +1,28 @@
+package com.varxyz.jv200.mod007;
+
+public class Libary {
+	private static Book bookInfo;
+	public static Book[] bookArray = new Book[100];
+	
+	private static void Libary() {
+		
+	}
+	
+	public void getBook(int serial) {
+		System.out.println(serial);
+	}
+	
+	public static Book addBook(Book book) {
+		bookArray[0] = book.addBook(book);
+		return bookInfo;
+	}
+
+	public Book getBookInfo() {
+		return bookInfo;
+	}
+
+	public void setBookInfo(Book bookInfo) {
+		this.bookInfo = bookInfo;
+	}
+
+}

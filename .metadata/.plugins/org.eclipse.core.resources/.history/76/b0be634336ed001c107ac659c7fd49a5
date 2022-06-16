@@ -1,0 +1,39 @@
+package com.varxyz.jv200.mod007;
+
+public class Libary {
+	private static Book bookInfo;
+	public static Book[] bookArray = new Book[100];
+	
+	private static void Libary() {
+		
+	}
+	
+	public static void getBook(int serial) {
+		if (serial == bookArray[1].getSerial()) {
+			System.out.println("book name : " + bookArray[1].getName() + 
+					"\nbook serial : " + bookArray[1].getSerial());
+		}else {
+			System.err.println("찾으시는 책이 없습니다!");
+		};
+	}
+	
+	public static Book addBook(Book book) {
+		for (int i = 0; i < bookArray.length; i++) {
+			if (bookArray[i] == 0) {
+				bookArray[i] = book;
+				break;
+			}
+		}
+		
+		return book;
+	}
+
+	public Book getBookInfo() {
+		return bookInfo;
+	}
+
+	public void setBookInfo(Book bookInfo) {
+		Libary.bookInfo = bookInfo;
+	}
+
+}

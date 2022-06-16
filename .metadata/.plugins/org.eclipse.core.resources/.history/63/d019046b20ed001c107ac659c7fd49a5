@@ -1,0 +1,11 @@
+package com.varxyz.jv200.mod007;
+
+public class Book{
+	private int serial;
+	private String name;
+	
+	public void addBook(int serial, String name) {
+		this.serial = serial;
+		this.name = name;
+	}
+}

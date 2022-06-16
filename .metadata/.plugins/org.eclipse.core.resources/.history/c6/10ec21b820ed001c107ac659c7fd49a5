@@ -1,0 +1,10 @@
+package com.varxyz.jv200.mod007;
+
+public class Libary {
+	public Book Lbook;
+	
+	public Book getBook() {
+		return Lbook;
+	}
+	
+}

@@ -1,0 +1,9 @@
+package com.varxyz.jv200.mod007;
+
+public class Book extends Libary{
+	
+	public int addBook(int serial) {
+		return serial;
+	}
+	
+}

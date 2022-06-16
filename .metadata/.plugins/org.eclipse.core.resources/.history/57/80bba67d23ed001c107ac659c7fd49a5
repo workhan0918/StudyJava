@@ -1,0 +1,14 @@
+package com.varxyz.jv200.mod007;
+
+public class Libary {
+	public Book Lbook;
+	
+	public void getBook() {
+		System.out.println(Lbook.getSerial());
+	}
+	
+	public void addBook(Book book) {
+		this.Lbook = book;
+	}
+	
+}
