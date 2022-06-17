@@ -1,0 +1,22 @@
+package com.varxyz.jv200.mod008;
+
+public class LeastCommonMultiple {
+	public int CommonMultiple(int num) {
+		int count = 0;
+		int tempNum = num;
+		int quotient = 0;
+		int result;
+		for (int i = 2; i < num; i++) {
+			if(tempNum % i == 0) {
+				quotient = i;
+				System.out.println(tempNum+"을");
+				tempNum = tempNum / quotient;
+				i = 2;		
+				System.out.println(quotient+"로 나눔");
+				System.out.println("마지막값"+tempNum+"\n");
+			}
+		}
+		System.out.println("="+num);
+		return num;
+	}
+}

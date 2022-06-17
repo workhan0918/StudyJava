@@ -1,0 +1,18 @@
+package com.varxyz.banking.domain;
+
+public class BankingTest {
+	public static void main(String[] args) {
+		Account account = new Account();
+		account.deposite(5000);
+		
+		CheckingAccount checkingAccount = new CheckingAccount();
+		checkingAccount.setOverdraftAmount(2000);
+		
+		SavingsAccount savingAccount = new SavingsAccount();
+		savingAccount.withdraw(1000);
+		savingAccount.withdraw(3000);
+		
+		checkingAccount.deposite(1000);
+		checkingAccount.withdraw(4000);
+	}
+}

@@ -6,7 +6,22 @@
     <fullyQualifiedTypeName name="java.util.Date"/>
     <fullyQualifiedTypeName name="com.varxyz.jv200.mod006.Employee"/>
     <fullyQualifiedTypeName name="com.varxyz.jv200.mod006.MyDate"/>
-    <fullyQualifiedTypeName name="javax.sound.midi.SysexMessage"/>
-    <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="com.varxyz.jv200.mod007.AnimalTest"/>
+    <fullyQualifiedTypeName name="com.varxyz.jv200.mod007.Flyer"/>
+    <fullyQualifiedTypeName name="javax.sound.midi.SysexMessage"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="com.varxyz.jv200.mod007.LibraryReview"/>
+    <fullyQualifiedTypeName name="java.io.FileInputStream"/>
+    <fullyQualifiedTypeName name="java.io.File"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="com.varxyz.jv200.mod003.PrimeNumber"/>
+    <fullyQualifiedTypeName name="java.lang.NumberFormatException"/>
+    <fullyQualifiedTypeName name="com.varxyz.jv200.mod008.PrimeException"/>
+    <fullyQualifiedTypeName name="com.varxyz.jv200.mod008.LeastCommonMultiple"/>
+    <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
+    <fullyQualifiedTypeName name="java.lang.InstantiationError"/>
+    <fullyQualifiedTypeName name="com.varxyz.banking.domain.InsufficientException"/>
+    <fullyQualifiedTypeName name="com.varxyz.banking.domain.SavingsAccount"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="com.varxyz.banking.domain.CheckingAccount"/>
 </qualifiedTypeNameHistroy>

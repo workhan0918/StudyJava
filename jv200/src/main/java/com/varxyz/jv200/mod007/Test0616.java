@@ -19,7 +19,7 @@ public class Test0616 {
 		Libary.addBook(theLittlePrince);
 		Libary.addBook(demian);
 		Libary.addBook(coding);
-		Libary.getBook(617);	
+		Libary.getBook(617);
 		Libary.getBook(616);
 		Libary.getBook(1);
 		}

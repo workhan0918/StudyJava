@@ -1,0 +1,33 @@
+package com.varxyz.banking.domain;
+
+public class CheckingAccount extends Account {
+	private double overdraftAmount;
+	
+	public void withdraw(double amount) { // 마이너스 통장
+		if(balance < amount) {
+			//잔고 부족시 overdraftAmount 금액 한도 내에서 추가 출금을 승인
+			if(overdraftAmount + balance >= amount) {
+				System.out.println("출금 전 금액:" + balance+"원");
+				balance = balance - amount;
+				System.out.println("CheckingAccount에 "+amount+"원 출금 후 금액: " + balance+"원\n");
+			}else {
+				// 예외발생
+				throw new InsufficientException("한도 부족");
+			}
+		}else {
+			balance = balance - amount;
+		}
+	}
+	
+	public void setOverdraftAmount(double setoverdraftAmount) {
+		this.overdraftAmount = setoverdraftAmount;
+	}
+	
+	@Override
+	public void deposite(double amount) {
+		System.out.println("입금 전 금액:"+balance+"원");
+		balance += amount;
+		System.out.println("CheckingAccount에 "+amount+"원"+" 입금을 완료했습니다.\n"+"입금 후 금액:"
+		+balance+"원\n");
+	}
+}

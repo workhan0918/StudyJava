@@ -1,0 +1,11 @@
+package com.varxyz.banking.domain;
+
+public class SavingsAccount extends Account{
+	private double interestRate;
+	
+	public void withdraw(double amount) {
+		if(balance - amount < 0) {
+			super.balance -= amount;			
+		}
+	}
+}

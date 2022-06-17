@@ -1,0 +1,6 @@
+package com.varxyz.banking.domain;
+
+public class SavingsAccount extends Account{
+	private String accountNum;
+	private double balance;
+}

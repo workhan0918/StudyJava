@@ -1,0 +1,19 @@
+package com.varxyz.banking.domain;
+
+public class SavingsAccount extends Account{
+	private double interestRate;
+	
+	
+	
+	public void withdraw(double amount) {
+		if(balance - amount < 0) {
+//			예외발생
+			throw new InsufficientException("잔고 부족");
+		}
+		super.balance -= amount; // 부모에게서 balance 호출			
+	}
+
+	public void setInterestRate(double interestRate) {
+		this.interestRate = interestRate;
+	}
+}

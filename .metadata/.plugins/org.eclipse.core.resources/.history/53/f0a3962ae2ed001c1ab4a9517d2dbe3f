@@ -1,0 +1,15 @@
+package com.varxyz.jv200.mod008;
+
+public class MyException extends Exception {
+	MyException() {
+		
+	}
+	
+	MyException(String message) {
+		super(message);
+	}
+	
+	public String getMessage(int num) {
+		return "입력하신 숫자"+"는 음수입니다.";
+	}
+}
