@@ -1,0 +1,26 @@
+package com.varxyz.banking.domain;
+
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+public class Customer {
+	private String name; //이름
+	private String ssn; //주민번호
+	private String phone; //연락처
+	private String customerId; //고객id
+	private String passwd; //비밀번호
+	private List<Account> account; //보유계좌
+	public String getCustomerId() {
+		return customerId;
+	}
+	public void setCustomerId(String customerId) {
+		this.customerId = customerId;
+	}
+	public String getPasswd() {
+		return passwd;
+	}
+	public void setPasswd(String passwd) {
+		this.passwd = passwd;
+	}
+}

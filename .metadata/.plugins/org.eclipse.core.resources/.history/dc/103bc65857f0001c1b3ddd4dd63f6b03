@@ -1,0 +1,50 @@
+package com.varxyz.banking.domain;
+
+import java.util.ArrayList;
+import java.util.List;
+
+// Customer에 대한 서비스를 처리하는 클래스
+public class CustomerService extends Customer {
+	//주요메소드
+	
+	List<String> allCustomers = new ArrayList<String>();
+	
+	public void addCustomer(String name, String ssn, String phone, String customerId, String passwd) { // 신규고객 추가
+		this.name = name;
+		this.ssn = ssn;
+		this.phone = phone;
+		this.customerId = customerId;
+		this.passwd = passwd;
+		
+		allCustomers.add(name);
+		allCustomers.add(ssn);
+		allCustomers.add(phone);
+		allCustomers.add(customerId);
+		allCustomers.add(passwd);
+
+		customerMap.put(ssn, allCustomers);
+	}
+	
+	public List<String> getCustomerByssn(String ssn) { //주민번호로 고객조회
+		if(ssn.equals(customerMap.get(ssn))) {
+			System.out.println("같다");
+		}else {
+			System.out.println("다르다");
+		}
+			
+		return customerMap.get(ssn);
+	}
+	
+	public String getAllCustomers() { // 전체 고객목록
+		return name;
+	}
+	
+	public void getNumOfCustomers() { // 전채 고객 수
+		
+	}
+	
+	/* 기타
+	 *  CustomerService는 고객의 정볼르 보관할 수 있는 속성을 유지해야한다. <Generic>
+	 *  고객의 정보를 유지할 수 있는 속성을 정의하라.
+	 */
+}

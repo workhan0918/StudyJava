@@ -1,0 +1,16 @@
+package com.varxyz.banking.domain;
+
+public class CustomerTest {
+	public static void main(String[] args) {
+		Customer c = new Customer();
+		c.setName("홍길동");
+		c.setSsn("1234");
+		c.setPhone("1234-5678");
+		c.setCustomerId("test");
+		c.setPasswd("12345");
+		CustomerServiceImpl customerServiceImpl = new CustomerServiceImpl();
+		customerServiceImpl.addCustomer(c);
+		CustomerService customerService = customerServiceImpl;
+		System.out.println(customerService.getAllCustomers());
+	}
+}

@@ -1,0 +1,10 @@
+package com.varxyz.jv200.mod009;
+
+import java.util.*;
+
+public class GenericsWarning {
+	public static void main(String[] args) {
+		List list = new ArrayList();
+		
+	}
+}

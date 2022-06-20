@@ -1,0 +1,39 @@
+package com.varxyz.banking.domain;
+
+import java.util.Map;
+import java.util.Collection;
+import java.util.HashMap;
+
+// Map으로 처리
+public class CustomerServiceImpl implements CustomerService {
+	private Map<String, Customer> map = new HashMap<>();
+	
+	@Override
+	public void addCustomer(Customer customer) {
+	 if(!map.containsKey(customer.getSsn())) {
+	 map.put(customer.getSsn(), customer);
+	 }
+	}
+
+
+	@Override
+	public Customer getCustomerByssn(String ssn) {
+		if(map.containsKey(ssn)) {
+			System.out.println("입력한 주민번호 : "+ssn+"\n이름 : "+map.get(ssn).getName());
+			//getName을 사용하여야만 주소값안에 있는 value값이 호출됨
+			return map.get(ssn);
+		}
+		return null;
+	}
+
+	@Override
+	public Collection<Customer> getAllCustomers() {
+		return map.values();
+	}
+
+	@Override
+	public int getNumOfCustomers() {
+		return map.size();
+	}
+
+}

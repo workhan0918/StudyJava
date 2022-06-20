@@ -1,0 +1,10 @@
+package com.varxyz.banking.domain;
+
+public class BankingTest {
+	public static void main(String[] args) {
+		SavingsAccount savingAccount = new SavingsAccount();
+		
+		
+		
+	}
+}

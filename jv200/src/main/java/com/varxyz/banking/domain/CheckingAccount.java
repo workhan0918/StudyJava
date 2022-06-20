@@ -3,6 +3,11 @@ package com.varxyz.banking.domain;
 public class CheckingAccount extends Account {
 	private double overdraftAmount;
 	
+	public CheckingAccount(String accountNum, double balance, double overdraftAmount) {
+		super(accountNum, balance);
+		this.overdraftAmount = overdraftAmount;
+	}
+	
 	public void withdraw(double amount) { // 마이너스 통장
 		if(balance < amount) {
 			//잔고 부족시 overdraftAmount 금액 한도 내에서 추가 출금을 승인

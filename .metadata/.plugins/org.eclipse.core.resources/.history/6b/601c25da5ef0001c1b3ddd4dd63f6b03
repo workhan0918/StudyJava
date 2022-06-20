@@ -1,0 +1,10 @@
+package com.varxyz.banking.domain;
+
+public class CustomerTest {
+	public static void main(String[] args) {
+		Customer cus = new Customer();
+		
+	   CustomerService customerService;
+	   customerService.addCustomer(null);
+	}
+}

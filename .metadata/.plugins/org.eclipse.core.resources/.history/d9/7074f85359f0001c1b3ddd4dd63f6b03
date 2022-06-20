@@ -1,0 +1,38 @@
+package com.varxyz.jv200.mod009;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import com.varxyz.banking.domain.Customer;
+
+public class CustomerServiceImpl2 {
+	private List<Customer> customerList = new ArrayList<>();
+
+	@Override
+	public void addCustomer(Customer customer) {
+		if(!map.containsKey(customer).getSsn()) {
+			map.put(customer.getSsn());
+		}
+		
+	}
+
+	@Override
+	public List<String> getCustomerByssn(String ssn) {
+		if(map.containsKey(ssn)) {
+			return map.get(ssn);
+		}
+		return null;
+	}
+
+	@Override
+	public String getAllCustomers() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void getNumOfCustomers() {
+		// TODO Auto-generated method stub
+		
+	}
+}

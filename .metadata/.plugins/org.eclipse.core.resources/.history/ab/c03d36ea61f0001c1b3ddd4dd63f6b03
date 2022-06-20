@@ -1,0 +1,11 @@
+package com.varxyz.banking.domain;
+
+public class CustomerTest {
+	public static void main(String[] args) {
+		Customer c = new Customer();
+		c.setName("1234");
+		CustomerService c = new CustomerServiceImpl();
+		c.getAllCustomers();
+		
+	}
+}

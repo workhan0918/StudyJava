@@ -1,0 +1,36 @@
+package com.varxyz.jv200.mod009;
+
+import java.util.List;
+import java.util.Map;
+
+import com.varxyz.banking.domain.Customer;
+import com.varxyz.banking.domain.CustomerService;
+
+public class CustomerServiceImpl implements CustomerService {
+	private Map<String, Customer> map = enw Hashmap<>();
+	
+	@Override
+	public void addCustomer(Customer customer) {
+		if(map.containsKey(customer).get)
+		
+	}
+
+	@Override
+	public List<String> getCustomerByssn(String ssn) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String getAllCustomers() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void getNumOfCustomers() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

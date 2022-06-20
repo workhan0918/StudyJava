@@ -1,0 +1,9 @@
+package com.varxyz.banking.domain;
+
+public class CustomerTest {
+	public static void main(String[] args) {
+		CustomerService c1 = new CustomerServiceImpl();
+		System.out.println(c1.getCustomerByssn("12345"));
+		
+	}
+}

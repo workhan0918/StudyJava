@@ -1,0 +1,16 @@
+package com.varxyz.banking.domain;
+
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+public class Customer {
+	protected String name; //이름
+	protected String ssn; //주민번호
+	protected String phone; //연락처
+	protected String customerId; //고객id
+	protected String passwd; //비밀번호
+	protected List<String> Account; //보유계좌
+	protected List<String> AllCustomers;
+	protected Map<String, List<String>> map = new HashMap<String, List<String>>();
+}
