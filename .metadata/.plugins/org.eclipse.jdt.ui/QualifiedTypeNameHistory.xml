@@ -22,6 +22,15 @@
     <fullyQualifiedTypeName name="java.lang.InstantiationError"/>
     <fullyQualifiedTypeName name="com.varxyz.banking.domain.InsufficientException"/>
     <fullyQualifiedTypeName name="com.varxyz.banking.domain.SavingsAccount"/>
-    <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="com.varxyz.banking.domain.CheckingAccount"/>
+    <fullyQualifiedTypeName name="java.util.Set"/>
+    <fullyQualifiedTypeName name="java.util.HashMap"/>
+    <fullyQualifiedTypeName name="java.util.Map"/>
+    <fullyQualifiedTypeName name="com.varxyz.banking.domain.CustomerService"/>
+    <fullyQualifiedTypeName name="java.util.Collection"/>
+    <fullyQualifiedTypeName name="com.varxyz.banking.domain.Customer"/>
+    <fullyQualifiedTypeName name="com.varxyz.banking.domain.CustomerServiceImpl2"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
 </qualifiedTypeNameHistroy>

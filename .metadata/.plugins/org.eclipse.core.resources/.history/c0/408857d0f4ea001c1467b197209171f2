@@ -1,8 +1,0 @@
-package com.varxyz.jv200.mod006;
-
-public class EmployeeTest {
-	public static void main(String[] args) {
-		Employee e = new Employee();
-		e.name = "유비";
-	}
-}

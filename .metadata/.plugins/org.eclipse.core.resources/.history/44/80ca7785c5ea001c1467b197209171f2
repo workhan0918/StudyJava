@@ -1,7 +1,0 @@
-package com.varxyz.jv200.mod003;
-
-public class ArrayExercise {
-	public static void main(String[] args) {
-		
-	}
-}
