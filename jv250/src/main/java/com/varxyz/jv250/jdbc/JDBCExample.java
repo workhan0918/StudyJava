@@ -24,7 +24,7 @@ public class JDBCExample {
          Statement stmt = con.createStatement();   // statment 생성
          stmt.executeQuery(sql);   // excute 인자로 sql 변수 입력
          ResultSet rs = stmt.executeQuery(sql);   // 입력된 결과 값이 rs로 저장
-         while(rs.next()) {   // while은 참일때만 동작
+         while(rs.next()) {   // while은 참일때만 동작.
             long cid = rs.getLong("cid");
             String customerId = rs.getString("customerId");
             String name = rs.getString("name");
