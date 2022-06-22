@@ -1,9 +1,0 @@
-package com.varxyz.jv200.mod006;
-
-public class Pad extends Product {
-	
-	public Pad(String name) {
-		super(name);
-	}
-
-}
