@@ -71,6 +71,6 @@ public class Account {
 	}
 	@Override
 	public String toString() {
-		return accountNum + ", " + balance + ", " + customer.getName() + ", " + customer.getPhone() + ", " + regDate;
+		return accountNum + ", " + balance + ", " + customer.getName() + ", " + customer.getPhone() + ", " + regDate + ", " + aid;
 	}
 }
