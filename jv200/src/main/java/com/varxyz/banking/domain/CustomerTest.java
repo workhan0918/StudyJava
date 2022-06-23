@@ -1,5 +1,6 @@
 package com.varxyz.banking.domain;
 
+
 public class CustomerTest {
 	public static void main(String[] args) {
 		Customer c = new Customer(); //정보를 저장하기위한 Customer 객체 생성

@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 
+
 // Customer에 대한 서비스를 처리하는 클래스
 public interface CustomerService{
 	//주요메소드

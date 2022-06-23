@@ -1,5 +1,0 @@
-package com.varxyz.banking.domain;
-// Customer에 대한 서비스를 처리하는 클래스
-public class CustomerService {
-	
-}

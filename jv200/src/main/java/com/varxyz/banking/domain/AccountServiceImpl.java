@@ -3,6 +3,7 @@ package com.varxyz.banking.domain;
 import java.util.ArrayList;
 import java.util.List;
 
+
 public class AccountServiceImpl implements AccountService{
 	private static AccountService service = new AccountServiceImpl();
 	private List<Account> accountList = new ArrayList<Account>();

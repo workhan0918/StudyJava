@@ -1,6 +1,0 @@
-package com.varxyz.banking.domain;
-
-public class Account {
-	private String accountNum;
-	private double balance;
-}

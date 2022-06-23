@@ -25,14 +25,16 @@ CREATE TABLE Customer (
 
 SELECT * FROM Customer;
 
-INSERT INTO Customer (name, ssn, phone, customerId, passwd) 
-VALUES ('성호', '930418-1111111', '010-2503-4372', 'java', '1111');
+DELETE FROM Customer WHERE name = '공명';
 
 INSERT INTO Customer (name, ssn, phone, customerId, passwd) 
-VALUES ('성순', '961025-1111111', '010-2503-4372', 'servlet', '1111');
+VALUES ('김치', '930418-1111111', '010-2503-4372', 'java', '1111');
 
 INSERT INTO Customer (name, ssn, phone, customerId, passwd) 
-VALUES ('성돌', '981212-1111111', '010-2503-4372', 'jsp', '1111');
+VALUES ('깍두기', '961025-1111111', '010-2503-4372', 'servlet', '1111');
+
+INSERT INTO Customer (name, ssn, phone, customerId, passwd) 
+VALUES ('총각김치', '981212-1111111', '010-2503-4372', 'jsp', '1111');
 
 UPDATE Customer SET phone = '010-2222-2222' WHERE cid=1003;
 
@@ -45,6 +47,8 @@ UPDATE Customer SET ssn = "981212-1111111", phone= "010-1111-1111" WHERE cid=100
 DELETE FROM Customer WHERE cid=1003;   
 
 DROP TABLE Customer;
+
+DROP TABLE Account;
 
 CREATE TABLE Account(
    aid          BIGINT         PRIMARY KEY AUTO_INCREMENT,
@@ -59,9 +63,17 @@ CREATE TABLE Account(
 )AUTO_INCREMENT = 3001;
 
 SELECT * FROM Account;
+SELECT * FROM Customer;
 
 INSERT INTO Account (accountNum, balance, interestRate, overdraft, accountType, customerId) 
 VALUES  ('508-12-4728', 10000.0, 0.3, 1000.0, 'S', 1001),
         ('508-12-4721', 20000.0, 0.4, 2000.0, 'C', 1002),
       	('508-12-4722', 30000.0, 0.5, 3000.0, 'S', 1003);
+      	
+-- inner join
+SELECT * FROM Account, Customer WHERE Account.customerId = Customer.cid
+AND Customer.ssn = '981212-1111111';
+
+SELECT * FROM Account a INNER JOIN Customer c ON a.customerId = c.cid;
+SELECT * FROM Account a INNER JOIN Customer c ON a.customerId = c.cid WHERE c.ssn = '981212-1111111';
       	
