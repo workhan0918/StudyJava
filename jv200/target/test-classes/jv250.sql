@@ -14,7 +14,7 @@ INSERT INTO Sample10 VALUES (3, '장비', '1998-12-12', '대구 남구 반야월
 UPDATE Sample10 SET name='이성호' WHERE birthday = '1993-04-18';
 
 CREATE TABLE Customer (
-   cid         BIGINT         	PRIMARY KEY AUTO_INCREMENT,
+   cid         	BIGINT         	PRIMARY KEY AUTO_INCREMENT,
    name      	VARCHAR(20)     NOT NULL,
    ssn         	VARCHAR(14)    	NOT NULL,
    phone      	VARCHAR(14)     NOT NULL,
@@ -22,6 +22,8 @@ CREATE TABLE Customer (
    passwd      	VARCHAR(60)    	NOT NULL,
    regDate      TIMESTAMP    	NOT NULL   DEFAULT CURRENT_TIMESTAMP
 )   AUTO_INCREMENT = 1001;
+
+ALTER TABLE Customer CHANGE customerId userId VARCHAR(16) NOT NULL;
 
 SELECT * FROM Customer;
 
@@ -51,7 +53,7 @@ DROP TABLE Customer;
 DROP TABLE Account;
 
 CREATE TABLE Account(
-   aid          BIGINT         PRIMARY KEY AUTO_INCREMENT,
+   aid          	BIGINT         PRIMARY KEY AUTO_INCREMENT,
    accountNum     	VARCHAR(11)    NOT NULL,   -- 111-11-1111
    balance        	DOUBLE         NOT NULL   DEFAULT 0.0,
    interestRate   	DOUBLE         NOT NULL   DEFAULT 0.0,
