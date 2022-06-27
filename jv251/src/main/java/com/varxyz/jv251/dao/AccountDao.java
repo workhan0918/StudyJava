@@ -12,6 +12,7 @@ import com.varxyz.jv251.domain.Account;
 import com.varxyz.jv251.domain.CheckingAccount;
 import com.varxyz.jv251.domain.Customer;
 import com.varxyz.jv251.domain.SavingsAccount;
+import com.varxyz.jv251.exception.InsufficientBalanceException;
 
 public class AccountDao {
 
@@ -84,10 +85,7 @@ public class AccountDao {
 	 * @return
 	 */
 	public List<Account> findAccountByssn(String ssn) {
-//		String sql = "SELECT a.aid, a.accountNum, a.balance, a.interestRate, a.overdraft, a.accoutType, c.name, c.ssn, c.phone, a.regDate "
-//	            + "FROM Account a INNER JOIN Customer c ON a.customerId = c.cid"
-//	            + "WHERE c.ssn = ?";
-		
+//		String sql = "SELECT a.aid, a.accountNum, a.overdraft, a.interestRate, a.overdraft, a.accountType, c.name, c.ssn, c.phone, a.regDate FROM Account a INNER JOIN Customer c ON a.customerId = c.cid WHERE c.ssn = ?;";
 		String sql = "SELECT * FROM Account a INNER JOIN Customer c ON a.customerId = c.cid WHERE c.ssn = ?";
 		   List<Account> list = new ArrayList<>();
 		try {	 
@@ -113,9 +111,8 @@ public class AccountDao {
 				   account.setAid(rs.getLong("aid"));
 				   account.setAccountNum(rs.getString("accountNum"));
 				   account.setBalance(rs.getDouble("balance"));
-				   account.setCustomer(new Customer(rs.getString("name"),
-						   rs.getString("ssn"),
-						   rs.getString("phone")));
+				   account.setCustomer(new Customer());
+				   account.setAccountType(rs.getString("accountType").charAt(0));
 				   account.setRegDate(rs.getTime("regDate"));
 				   list.add(account);
 			   }
@@ -126,5 +123,32 @@ public class AccountDao {
 			   e.printStackTrace();
 		   	}
 			return list;
+	}
+	
+	public void deposit(String accountNum, double amount) {
+		String sql = "UPDATE Account SET balance = ? WHERE accountNum = ?";
+		try {	 
+			Connection con = null;
+			PreparedStatement pstmt = null;
+			ResultSet rs = null;
+		   try {
+			   con = DataSourceManager.getConnection();
+			   pstmt = con.prepareStatement(sql);
+			   pstmt.setDouble(1, amount);
+			   pstmt.setString(2, accountNum);
+			   Account a = null;
+			   rs = pstmt.executeQuery();
+			   while(rs.next()) {
+				   
+			   }
+			   a.deposite(accountNum, amount);
+			   pstmt.executeUpdate();
+		   }finally {
+			   DataSourceManager.close(pstmt, con);
+			   System.out.println("\n"+amount+"원 입금완료.");
+		   	}
+		   }catch(SQLException e) {
+			   e.printStackTrace();
+		   	}
 	}
 }

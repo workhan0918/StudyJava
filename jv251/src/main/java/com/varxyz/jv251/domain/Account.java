@@ -73,4 +73,10 @@ public abstract class Account {
 	public void setAid(long aid) {
 		this.aid = aid;
 	}
+	
+	@Override
+	public String toString() {
+		
+		return  "고객 계좌 정보 : " + accountNum + "\n잔고 : " + balance + "원" + "\n계좌 타입 : " + accountType;
+	}
 }

@@ -22,12 +22,11 @@ CREATE TABLE Customer (
    passwd      	VARCHAR(60)    	NOT NULL,
    regDate      TIMESTAMP    	NOT NULL   DEFAULT CURRENT_TIMESTAMP
 )   AUTO_INCREMENT = 1001;
-
 ALTER TABLE Customer CHANGE customerId userId VARCHAR(16) NOT NULL;
 
 SELECT * FROM Customer;
 
-DELETE FROM Customer WHERE name = '공명';
+DELETE FROM Customer WHERE name = '여포';
 
 INSERT INTO Customer (name, ssn, phone, customerId, passwd) 
 VALUES ('김치', '930418-1111111', '010-2503-4372', 'java', '1111');
@@ -78,4 +77,7 @@ AND Customer.ssn = '981212-1111111';
 
 SELECT * FROM Account a INNER JOIN Customer c ON a.customerId = c.cid;
 SELECT * FROM Account a INNER JOIN Customer c ON a.customerId = c.cid WHERE c.ssn = '981212-1111111';
-      	
+
+SELECT a.aid, a.accountNum, a.overdraft, a.interestRate, a.overdraft, a.accountType, c.name, c.ssn, c.phone, a.regDate FROM Account a INNER JOIN Customer c ON a.customerId = c.cid WHERE c.ssn = '981212-1111111';
+SELECT accountNum,balance FROM Account WHERE accountNum = '508-12-4728';
+UPDATE Account SET balance = balance + 500 WHERE accountNum = '508-12-4728';

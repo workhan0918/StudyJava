@@ -19,10 +19,12 @@ public class Customer {
 		this.cid = cid;
 	}
 	
-	public Customer (String name, String ssn, String phone) {
+	public Customer (String name, String ssn, String phone, String userId, String passwd) {
 		this.name = name;
 		this.ssn = ssn;
 		this.phone = phone;
+		this.userId = userId;
+		this.passwd = passwd;
 	}
 	
 	
