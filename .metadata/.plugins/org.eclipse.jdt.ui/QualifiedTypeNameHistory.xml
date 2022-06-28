@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="javax.swing.text.StyledEditorKit.ForegroundAction"/>
-    <fullyQualifiedTypeName name="java.sql.Date"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="com.varxyz.jv200.mod006.Employee"/>
     <fullyQualifiedTypeName name="com.varxyz.jv200.mod006.MyDate"/>
     <fullyQualifiedTypeName name="com.varxyz.jv200.mod007.AnimalTest"/>
@@ -34,7 +31,6 @@
     <fullyQualifiedTypeName name="com.mysql.cj.xdevapi.PreparableStatement"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.lang.Override"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="com.varxyz.jv250.banking.CheckingAccount"/>
     <fullyQualifiedTypeName name="com.varxyz.jv250.banking.SavingsAccount"/>
     <fullyQualifiedTypeName name="java.util.Date"/>
@@ -52,7 +48,16 @@
     <fullyQualifiedTypeName name="java.sql.ResultSet"/>
     <fullyQualifiedTypeName name="com.varxyz.jv251.dao.DataSourceManager"/>
     <fullyQualifiedTypeName name="com.varxyz.jv251.domain.SavingsAccount"/>
-    <fullyQualifiedTypeName name="com.varxyz.jv251.domain.Account"/>
-    <fullyQualifiedTypeName name="com.varxyz.jv251.domain.CheckingAccount"/>
+    <fullyQualifiedTypeName name="com.varxyz.jv251.dao.CustomerDao"/>
     <fullyQualifiedTypeName name="com.varxyz.jv251.domain.Customer"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="com.varxyz.jv251.exception.EntityNotFoundException"/>
+    <fullyQualifiedTypeName name="com.varxyz.jv251.domain.CheckingAccount"/>
+    <fullyQualifiedTypeName name="com.varxyz.jv251.exception.CustomerNotFoundException"/>
+    <fullyQualifiedTypeName name="com.varxyz.jv251.service.BankService"/>
+    <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
+    <fullyQualifiedTypeName name="com.varxyz.jv251.service.AccountService"/>
+    <fullyQualifiedTypeName name="com.varxyz.jv251.domain.Account"/>
+    <fullyQualifiedTypeName name="com.varxyz.jv251.dao.AccountDao"/>
+    <fullyQualifiedTypeName name="com.varxyz.jv251.exception.InsufficientBalanceException"/>
 </qualifiedTypeNameHistroy>

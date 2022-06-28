@@ -1,8 +1,0 @@
-package com.varxyz.jv200.mod009;
-
-import java.util.ArrayList;
-import java.util.List;
-
-public class CustomerServiceImpl2 {
-	private List<Customer> customerList = new ArrayList<>();
-}

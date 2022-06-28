@@ -1,9 +1,0 @@
-package com.varxyz.jv200.mod009;
-
-import java.util.*;
-
-public class ArrayListExample2 {
-	public static void main(String[] args) {
-		
-	}
-}

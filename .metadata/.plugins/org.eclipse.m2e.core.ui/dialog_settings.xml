@@ -2,6 +2,8 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Hbackend\eclipse-workspace\jv300\pom.xml"/>
+			<item value="C:\Hbackend\eclipse-workspace\jv251\src\main\java\com\varxyz\jv251\dao\AccountDao.java"/>
 			<item value="C:\Hbackend\eclipse-workspace\jv200\src\test\resources\jv250.sql"/>
 			<item value="C:\Hbackend\eclipse-workspace\jv200\src\main\java\com\varxyz\jv200\mod001\Hello.java"/>
 			<item value="C:\Hbackend\eclipse-workspace"/>
@@ -47,19 +49,10 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
-			<item value="jv251"/>
-			<item value="com.varxyz"/>
-			<item value="jv200-pj"/>
 		</list>
 		<list key="name">
-			<item value="jv251"/>
-			<item value="JV250"/>
-			<item value="jv200-pj"/>
 		</list>
 		<list key="artifactId">
-			<item value="jv251"/>
-			<item value="jv250"/>
-			<item value="jv200-pj"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

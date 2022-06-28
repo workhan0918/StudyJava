@@ -1,8 +1,8 @@
 commentBorder=\#C7DD0C | null | null | false | null | null
 commentText=\#C7DD0C | null | null | false | null | null
-declBoder=\#ff8000 | null | false | false | false | false
+declBoder=\#FFFFFF | null | null | null | null | null
 doctypeExternalId=\#FFFFFF | null | null | null | null | null
-doctypeExternalPubref=\#FFFFFF | null | false | true | false | false
+doctypeExternalPubref=\#FFFFFF | null | null | null | null | null
 doctypeExtrenalSysref=\#FFFFFF | null | null | null | null | null
 doctypeName=\#FFFFFF | null | null | null | null | null
 eclipse.preferences.version=1
