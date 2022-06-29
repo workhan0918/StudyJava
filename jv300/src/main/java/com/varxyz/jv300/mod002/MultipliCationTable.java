@@ -10,6 +10,7 @@ import javax.servlet.http.HttpServletResponse;
 
 
 
+@SuppressWarnings("serial")
 public class MultipliCationTable extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) 
 			throws ServletException, IOException{

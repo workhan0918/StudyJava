@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="com.varxyz.jv200.mod006.Employee"/>
-    <fullyQualifiedTypeName name="com.varxyz.jv200.mod006.MyDate"/>
-    <fullyQualifiedTypeName name="com.varxyz.jv200.mod007.AnimalTest"/>
-    <fullyQualifiedTypeName name="com.varxyz.jv200.mod007.Flyer"/>
     <fullyQualifiedTypeName name="javax.sound.midi.SysexMessage"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="com.varxyz.jv200.mod007.LibraryReview"/>
@@ -30,7 +26,6 @@
     <fullyQualifiedTypeName name="java.sql.Statement"/>
     <fullyQualifiedTypeName name="com.mysql.cj.xdevapi.PreparableStatement"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
-    <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="com.varxyz.jv250.banking.CheckingAccount"/>
     <fullyQualifiedTypeName name="com.varxyz.jv250.banking.SavingsAccount"/>
     <fullyQualifiedTypeName name="java.util.Date"/>
@@ -60,4 +55,9 @@
     <fullyQualifiedTypeName name="com.varxyz.jv251.domain.Account"/>
     <fullyQualifiedTypeName name="com.varxyz.jv251.dao.AccountDao"/>
     <fullyQualifiedTypeName name="com.varxyz.jv251.exception.InsufficientBalanceException"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="javax.servlet.http.HttpServletRequest"/>
+    <fullyQualifiedTypeName name="javax.servlet.http.HttpServletResponse"/>
+    <fullyQualifiedTypeName name="java.io.PrintWriter"/>
+    <fullyQualifiedTypeName name="org.apache.jasper.tagplugins.jstl.core.ForEach"/>
 </qualifiedTypeNameHistroy>

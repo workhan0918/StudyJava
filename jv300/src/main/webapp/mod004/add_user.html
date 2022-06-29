@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Add User</title>
+</head>
+<body>
+<form action="add_user.do" method="get">
+	아이디 : <input type="text" name="userId" required><br>
+	비밀번호 : <input type="password" name="passwd" required><br>
+	이름 : <input type="text" name="userName" required><br>
+	주민번호 앞자리 : <input type="text" maxlength="6" name="ssn" required><br>
+	이메일1 : <input type="text" name="email1" required>
+				@<select name="email2">
+				<option value="@naver.com" selected>naver.com</option>
+				<option value="@gmail.com">gmail.com</option>
+				<option value="@daum.net">daum.net</option>
+				</select><br>
+	관심분야 :	<label><input type="checkbox" name="concerns" value="Java" checked>Java</label>
+				<label><input type="checkbox" name="concerns" value="Servlet/Jsp">Servlet/JSP</label>
+				<label><input type="checkbox" name="concerns" value="Android">Android</label>
+				<label><input type="checkbox" name="concerns" value="JavaScript">JavaScript</label>
+				<br>
+				<input type="submit" value="제출">
+</form>
+</body>
+</html>
