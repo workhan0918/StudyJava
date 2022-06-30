@@ -33,7 +33,7 @@ public class FormBasedHelloServlet extends HttpServlet {
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) 
 			throws ServletException, IOException {
-		doGet(request, response);
+		
 	}
 
 }

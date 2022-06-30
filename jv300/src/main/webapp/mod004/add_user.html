@@ -5,7 +5,8 @@
 <title>Add User</title>
 </head>
 <body>
-<form action="add_user.do" method="get">
+<h3 style='font-size: 24px; text-align: center;'>회원 가입을 환영합니다.</h3>
+<form style='text-align: center;'action="add_user.do" method="get"> <!-- post 방식으로도 만들어보기 -->
 	아이디 : <input type="text" name="userId" required><br>
 	비밀번호 : <input type="password" name="passwd" required><br>
 	이름 : <input type="text" name="userName" required><br>
@@ -21,7 +22,7 @@
 				<label><input type="checkbox" name="concerns" value="Android">Android</label>
 				<label><input type="checkbox" name="concerns" value="JavaScript">JavaScript</label>
 				<br>
-				<input type="submit" value="제출">
+				<input style='width: 300px; margin-top: 20px; padding: 15px;' type="submit" value="제출">
 </form>
 </body>
 </html>
