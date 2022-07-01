@@ -38,7 +38,6 @@
 			<param-name>season-list</param-name>
 			<param-value>Spring, Summer, Fall, Winter</param-value>
 		</init-param>
-  	
  	</servlet>
  	<servlet-mapping>
     	<servlet-name>ServletConfigTestServlet</servlet-name>

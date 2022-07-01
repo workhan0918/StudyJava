@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="javax.sound.midi.SysexMessage"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
-    <fullyQualifiedTypeName name="com.varxyz.jv200.mod007.LibraryReview"/>
-    <fullyQualifiedTypeName name="java.io.File"/>
-    <fullyQualifiedTypeName name="java.lang.Exception"/>
-    <fullyQualifiedTypeName name="com.varxyz.jv200.mod003.PrimeNumber"/>
     <fullyQualifiedTypeName name="java.lang.NumberFormatException"/>
     <fullyQualifiedTypeName name="com.varxyz.jv200.mod008.PrimeException"/>
     <fullyQualifiedTypeName name="com.varxyz.jv200.mod008.LeastCommonMultiple"/>
@@ -60,4 +54,10 @@
     <fullyQualifiedTypeName name="javax.servlet.http.HttpServletResponse"/>
     <fullyQualifiedTypeName name="java.io.PrintWriter"/>
     <fullyQualifiedTypeName name="org.apache.jasper.tagplugins.jstl.core.ForEach"/>
+    <fullyQualifiedTypeName name="javax.servlet.annotation.MultipartConfig"/>
+    <fullyQualifiedTypeName name="java.io.File"/>
+    <fullyQualifiedTypeName name="javax.servlet.annotation.WebServlet"/>
+    <fullyQualifiedTypeName name="javax.servlet.DispatcherType"/>
+    <fullyQualifiedTypeName name="javax.sound.midi.SysexMessage"/>
+    <fullyQualifiedTypeName name="org.apache.jasper.tagplugins.jstl.core.Out"/>
 </qualifiedTypeNameHistroy>

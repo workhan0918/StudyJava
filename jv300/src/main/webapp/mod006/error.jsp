@@ -3,9 +3,13 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>Error Page</title>
 </head>
+<%
+	
+%>
 <body>
 <h1>THIS IS ERROR PAGE</h1>
+<p></p>
 </body>
 </html>

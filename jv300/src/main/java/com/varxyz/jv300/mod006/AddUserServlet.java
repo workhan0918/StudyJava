@@ -16,10 +16,10 @@ import javax.servlet.http.HttpServletResponse;
 public class AddUserServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
-	private UserService userService;
+	private UserService userService = UserService.getInstance();
 		
 	public void init(ServletConfig config) throws ServletException {
-		
+		super.init();
 	}
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) 
@@ -36,17 +36,20 @@ public class AddUserServlet extends HttpServlet {
 		String addr1 = request.getParameter("addr1");
 		String addr2 = request.getParameter("addr2");
 		
+	
+		
 		//2. 유효성 검증 및 반환
 		List<String> errorMsgs = new ArrayList<>();
 		if(userId == null || userId.length() == 0) {
 			errorMsgs.add("id는 필수입력 정보입니다.");
-		}else if(passwd == null || userId.length() == 0) {
+		}else if(passwd == null || passwd.length() == 0) {
 			errorMsgs.add("비밀번호는 필수입력 정보입니다.");
 		}
 		
 		RequestDispatcher dispatcher = null;
 		if(errorMsgs.size() > 0) {
 			dispatcher = request.getRequestDispatcher("error.jsp");
+			request.setAttribute("errorMsgs", errorMsgs);
 			dispatcher.forward(request, response);
 			return;
 		}
@@ -59,10 +62,12 @@ public class AddUserServlet extends HttpServlet {
 		user.setAddr(addr1 + " " + addr2);
 		
 		//3. 비즈니스 서비스 호출
-		userService.addUser(user);
 		
+		userService.addUser(user);
 		//4. NextPage
 		dispatcher = request.getRequestDispatcher("success.jsp");
+		request.setAttribute("userName", userName);
+		request.setAttribute("userId", userId);
 		dispatcher.forward(request, response);
 	}
 
