@@ -62,12 +62,11 @@ public class AddUserServlet extends HttpServlet {
 		user.setAddr(addr1 + " " + addr2);
 		
 		//3. 비즈니스 서비스 호출
-		
 		userService.addUser(user);
 		//4. NextPage
-		dispatcher = request.getRequestDispatcher("success.jsp");
 		request.setAttribute("userName", userName);
 		request.setAttribute("userId", userId);
+		dispatcher = request.getRequestDispatcher("success.jsp");
 		dispatcher.forward(request, response);
 	}
 
