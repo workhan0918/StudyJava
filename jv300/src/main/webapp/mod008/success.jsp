@@ -8,7 +8,7 @@
 </head>
 <style>
 	#header {
-		color: red;
+		color: #055123;
 	}
 	
 	#content-wrapper {
@@ -25,12 +25,12 @@
 <div id="wrapper">
 	<div id="header">
 		<jsp:include page="/incl/banner.jsp">
-			<jsp:param name="subtitle" value='<%=URLEncoder.encode(\"mod007 : Java Beans and include<br>회원가입을 축하합니다.\",\"UTF-8\") %>'/>
+			<jsp:param name="subtitle" value='<%=URLEncoder.encode(\"mod008 : Java Beans and include<br>회원가입을 축하합니다.\",\"UTF-8\") %>'/>
 		</jsp:include>
 	</div>
 	<div id="content-wrapper">
 		<h3>회원가입되었습니다.</h3>
-		<jsp:useBean id="user" class="com.varxyz.jv300.mod007.User" scope="request"/>
+		<jsp:useBean id="user" class="com.varxyz.jv300.mod008.User" scope="request"/>
 		아이디 : <jsp:getProperty property="userId" name="user"/><br>
 		이름 : <jsp:getProperty property="userName" name="user"/>
 	</div>

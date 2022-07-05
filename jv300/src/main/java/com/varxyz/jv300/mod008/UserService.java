@@ -13,8 +13,8 @@ public class UserService {
 	}
 	
 	public void addUser(User user) {
-		System.out.println(user.getUserId().toString());
-		System.out.println(user.getPasswd().toString());
-		System.out.println(user.getUserName().toString());
+		System.out.println("userId : " + user.getUserId().toString());
+		System.out.println("userPasswd : " + user.getPasswd().toString());
+		System.out.println("userName : " + user.getUserName().toString());
 	}
 }

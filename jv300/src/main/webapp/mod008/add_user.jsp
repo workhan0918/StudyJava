@@ -8,7 +8,7 @@
 </head>
 <style>
 	#header {
-		color: red;
+		color: #08523e;
 	}
 	
 	#content-wrapper {
@@ -25,7 +25,7 @@
 <div id="wrapper">
 	<div id="header">
 		<jsp:include page="/incl/banner.jsp">
-			<jsp:param name="subtitle" value='<%=URLEncoder.encode(\"mod007 : Java Beans and include<br>회원가입을 환영합니다.\",\"UTF-8\") %>'/>
+			<jsp:param name="subtitle" value='<%=URLEncoder.encode(\"mod008 : Java Beans and include<br>회원가입을 환영합니다.\",\"UTF-8\") %>'/>
 		</jsp:include>
 	</div>
 	<div id="content-wrapper">

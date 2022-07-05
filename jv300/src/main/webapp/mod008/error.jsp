@@ -16,16 +16,18 @@
 <div id="wrapper">
 	<div id="header">
 		<jsp:include page="/incl/banner.jsp">
-			<jsp:param name="subtitle" value='<%=URLEncoder.encode(\"mod007 : 에러가 발생했습니다.\",\"UTF-8\") %>'/>
+			<jsp:param name="subtitle" value='<%=URLEncoder.encode(\"mod008 : 에러가 발생했습니다.\",\"UTF-8\") %>'/>
 		</jsp:include>
 	</div>
 	<div id="content-wrapper">
-		<h3>다음과 같은 에러가 발생했습니다..</h3>
-		<ul>
-			<c:forEach var="message" items="${errorMsgs}">
-			<li>${message}</li>
-			</c:forEach>		
-		</ul>
+		<c:if test="${not empty errorMsgs }"> <!-- errorMsgs가 비어있지 않으면 -->
+			<h3>다음과 같은 에러가 발생했습니다..</h3>
+			<ul>
+				<c:forEach var="errorMsg" items="${errorMsgs}">
+				<li>${errorMsg}</li>
+				</c:forEach>
+			</ul>
+		</c:if>
 	</div>
 	<div id="footer">
 		<%@ include file="/incl/footer.jsp"%>

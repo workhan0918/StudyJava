@@ -81,3 +81,15 @@ SELECT * FROM Account a INNER JOIN Customer c ON a.customerId = c.cid WHERE c.ss
 SELECT a.aid, a.accountNum, a.overdraft, a.interestRate, a.overdraft, a.accountType, c.name, c.ssn, c.phone, a.regDate FROM Account a INNER JOIN Customer c ON a.customerId = c.cid WHERE c.ssn = '981212-1111111';
 SELECT accountNum,balance FROM Account WHERE accountNum = '508-12-4728';
 UPDATE Account SET balance = balance + 500 WHERE accountNum = '508-12-4728';
+
+CREATE TABLE STUDENT (
+   num        BIGINT       PRIMARY KEY AUTO_INCREMENT,
+   name       VARCHAR(20)  DEFAULT NULL,
+   birthday   DATE         DEFAULT NULL
+);
+
+DROP TABLE STUDENT;
+
+INSERT INTO STUDENT (name, birthday) VALUES ('홍길동', '1995-01-05');
+
+SELECT * FROM STUDENT;
