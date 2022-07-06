@@ -1716,3 +1716,558 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+!SESSION 2022-07-06 09:12:07.484 -----------------------------------------------
+eclipse.buildId=4.23.0.I20220308-0310
+java.version=11.0.15
+java.vendor=Amazon.com Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jface 2 0 2022-07-06 09:12:38.238
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-07-06 09:12:38.238
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6990f6af,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@27d38370,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-07-06 09:12:38.238
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@200ef05b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@298154d4,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.ui.navigator 2 0 2022-07-06 09:12:45.571
+!MESSAGE Can't find Navigator Content Descriptor with id: org.eclipse.jst.servlet.ui.EnhancedJavaRendering
+
+!ENTRY org.eclipse.ui.navigator 2 0 2022-07-06 09:12:45.571
+!MESSAGE Can't find Navigator Content Descriptor with id: org.eclipse.jst.servlet.ui.EnhancedJavaRendering
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-07-06 09:12:45.625
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Administrator'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.wst.server.core 4 0 2022-07-06 09:58:32.341
+!MESSAGE Server Tomcat v8.5 Server at localhost failed to start.
+
+!ENTRY org.eclipse.wst.server.core 4 0 2022-07-06 09:58:40.164
+!MESSAGE Server Tomcat v8.5 Server at localhost failed to start.
+
+!ENTRY org.eclipse.wst.server.core 4 0 2022-07-06 09:58:57.015
+!MESSAGE Server Tomcat v8.5 Server at localhost failed to start.
+!SESSION 2022-07-06 09:59:09.736 -----------------------------------------------
+eclipse.buildId=4.23.0.I20220308-0310
+java.version=11.0.15
+java.vendor=Amazon.com Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jface 2 0 2022-07-06 10:09:45.240
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-07-06 10:09:45.240
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@45b221c7,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@14abde3e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-07-06 10:09:45.240
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7e38f55,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@334d96af,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.ui.navigator 2 0 2022-07-06 10:09:50.526
+!MESSAGE Can't find Navigator Content Descriptor with id: org.eclipse.jst.servlet.ui.EnhancedJavaRendering
+
+!ENTRY org.eclipse.ui.navigator 2 0 2022-07-06 10:09:50.526
+!MESSAGE Can't find Navigator Content Descriptor with id: org.eclipse.jst.servlet.ui.EnhancedJavaRendering
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-07-06 10:09:50.558
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Administrator'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.wst.server.core 4 0 2022-07-06 10:10:06.107
+!MESSAGE Server Tomcat v8.5 Server at localhost failed to start.
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 4 0 2022-07-06 11:49:57.676
+!MESSAGE /org/eclipse/persistence/jaxb/eclipselink_oxm_2_5.xsd
+!STACK 0
+java.io.FileNotFoundException: /org/eclipse/persistence/jaxb/eclipselink_oxm_2_5.xsd
+	at org.eclipse.osgi.storage.url.bundleentry.Handler.findBundleEntry(Handler.java:55)
+	at org.eclipse.osgi.storage.url.BundleResourceHandler.openConnection(BundleResourceHandler.java:182)
+	at java.base/java.net.URL.openConnection(URL.java:1099)
+	at org.eclipse.core.internal.boot.PlatformURLConnection.connect(PlatformURLConnection.java:115)
+	at org.eclipse.core.internal.boot.PlatformURLConnection.getURLAsLocal(PlatformURLConnection.java:240)
+	at org.eclipse.core.internal.runtime.PlatformURLConverter.toFileURL(PlatformURLConverter.java:37)
+	at org.eclipse.core.runtime.FileLocator.toFileURL(FileLocator.java:263)
+	at org.eclipse.wildwebdeveloper.xml.internal.ui.preferences.XMLCatalogs.createURI(XMLCatalogs.java:139)
+	at org.eclipse.wildwebdeveloper.xml.internal.ui.preferences.XMLCatalogs.lambda$3(XMLCatalogs.java:87)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:658)
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:274)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:497)
+	at org.eclipse.wildwebdeveloper.xml.internal.ui.preferences.XMLCatalogs.getWTPExtensionCatalog(XMLCatalogs.java:65)
+	at org.eclipse.wildwebdeveloper.xml.internal.ui.preferences.XMLCatalogs.getAllCatalogs(XMLCatalogs.java:52)
+	at org.eclipse.wildwebdeveloper.xml.internal.ui.preferences.XMLPreferenceConstants.storePreferencesToLemminxOptions(XMLPreferenceConstants.java:90)
+	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.mergeCustomInitializationOptions(XMLLanguageServer.java:163)
+	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.getInitializationOptions(XMLLanguageServer.java:158)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$8(LanguageServerWrapper.java:353)
+	at java.base/java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1072)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1705)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1692)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1020)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+
+!ENTRY org.eclipse.lsp4e 4 0 2022-07-06 11:50:19.616
+!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: The request (id: 44, method: 'textDocument/completion') has been cancelled
+!STACK 0
+java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: The request (id: 44, method: 'textDocument/completion') has been cancelled
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:395)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1999)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.computeCompletionProposals(LSContentAssistProcessor.java:106)
+	at org.eclipse.jface.text.contentassist.AsyncCompletionProposalPopup.lambda$10(AsyncCompletionProposalPopup.java:352)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.text.contentassist.AsyncCompletionProposalPopup.lambda$9(AsyncCompletionProposalPopup.java:351)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1700)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1692)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1020)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: The request (id: 44, method: 'textDocument/completion') has been cancelled
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$4(LanguageServerWrapper.java:260)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.lsp4e 4 0 2022-07-06 11:50:28.361
+!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: The request (id: 75, method: 'textDocument/completion') has been cancelled
+!STACK 0
+java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: The request (id: 75, method: 'textDocument/completion') has been cancelled
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:395)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1999)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.computeCompletionProposals(LSContentAssistProcessor.java:106)
+	at org.eclipse.jface.text.contentassist.AsyncCompletionProposalPopup.lambda$10(AsyncCompletionProposalPopup.java:352)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.text.contentassist.AsyncCompletionProposalPopup.lambda$9(AsyncCompletionProposalPopup.java:351)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1700)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1692)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1020)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: The request (id: 75, method: 'textDocument/completion') has been cancelled
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$4(LanguageServerWrapper.java:260)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.lsp4e 4 0 2022-07-06 11:50:29.978
+!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: The request (id: 97, method: 'textDocument/completion') has been cancelled
+!STACK 0
+java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: The request (id: 97, method: 'textDocument/completion') has been cancelled
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:395)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1999)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.computeCompletionProposals(LSContentAssistProcessor.java:106)
+	at org.eclipse.jface.text.contentassist.AsyncCompletionProposalPopup.lambda$10(AsyncCompletionProposalPopup.java:352)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.text.contentassist.AsyncCompletionProposalPopup.lambda$9(AsyncCompletionProposalPopup.java:351)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1700)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1692)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1020)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: The request (id: 97, method: 'textDocument/completion') has been cancelled
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$4(LanguageServerWrapper.java:260)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.lsp4e 4 0 2022-07-06 11:50:30.197
+!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: The request (id: 99, method: 'textDocument/completion') has been cancelled
+!STACK 0
+java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: The request (id: 99, method: 'textDocument/completion') has been cancelled
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:395)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1999)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.computeCompletionProposals(LSContentAssistProcessor.java:106)
+	at org.eclipse.jface.text.contentassist.AsyncCompletionProposalPopup.lambda$10(AsyncCompletionProposalPopup.java:352)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.text.contentassist.AsyncCompletionProposalPopup.lambda$9(AsyncCompletionProposalPopup.java:351)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1700)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1692)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1020)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: The request (id: 99, method: 'textDocument/completion') has been cancelled
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$4(LanguageServerWrapper.java:260)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.lsp4e 4 0 2022-07-06 11:50:31.278
+!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: The request (id: 109, method: 'textDocument/completion') has been cancelled
+!STACK 0
+java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: The request (id: 109, method: 'textDocument/completion') has been cancelled
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:395)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1999)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.computeCompletionProposals(LSContentAssistProcessor.java:106)
+	at org.eclipse.jface.text.contentassist.AsyncCompletionProposalPopup.lambda$10(AsyncCompletionProposalPopup.java:352)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.text.contentassist.AsyncCompletionProposalPopup.lambda$9(AsyncCompletionProposalPopup.java:351)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1700)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1692)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1020)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: The request (id: 109, method: 'textDocument/completion') has been cancelled
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$4(LanguageServerWrapper.java:260)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.lsp4e 4 0 2022-07-06 11:50:46.456
+!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: The request (id: 181, method: 'textDocument/completion') has been cancelled
+!STACK 0
+java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: The request (id: 181, method: 'textDocument/completion') has been cancelled
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:395)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1999)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.computeCompletionProposals(LSContentAssistProcessor.java:106)
+	at org.eclipse.jface.text.contentassist.AsyncCompletionProposalPopup.lambda$10(AsyncCompletionProposalPopup.java:352)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.text.contentassist.AsyncCompletionProposalPopup.lambda$9(AsyncCompletionProposalPopup.java:351)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1700)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1692)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1020)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: The request (id: 181, method: 'textDocument/completion') has been cancelled
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$4(LanguageServerWrapper.java:260)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.lsp4e 4 0 2022-07-06 11:50:47.271
+!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: The request (id: 184, method: 'textDocument/completion') has been cancelled
+!STACK 0
+java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: The request (id: 184, method: 'textDocument/completion') has been cancelled
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:395)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1999)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.computeCompletionProposals(LSContentAssistProcessor.java:106)
+	at org.eclipse.jface.text.contentassist.AsyncCompletionProposalPopup.lambda$10(AsyncCompletionProposalPopup.java:352)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.text.contentassist.AsyncCompletionProposalPopup.lambda$9(AsyncCompletionProposalPopup.java:351)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1700)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1692)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1020)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: The request (id: 184, method: 'textDocument/completion') has been cancelled
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$4(LanguageServerWrapper.java:260)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 4 0 2022-07-06 11:52:39.617
+!MESSAGE /org/eclipse/persistence/jaxb/eclipselink_oxm_2_5.xsd
+!STACK 0
+java.io.FileNotFoundException: /org/eclipse/persistence/jaxb/eclipselink_oxm_2_5.xsd
+	at org.eclipse.osgi.storage.url.bundleentry.Handler.findBundleEntry(Handler.java:55)
+	at org.eclipse.osgi.storage.url.BundleResourceHandler.openConnection(BundleResourceHandler.java:182)
+	at java.base/java.net.URL.openConnection(URL.java:1099)
+	at org.eclipse.core.internal.boot.PlatformURLConnection.connect(PlatformURLConnection.java:115)
+	at org.eclipse.core.internal.boot.PlatformURLConnection.getURLAsLocal(PlatformURLConnection.java:240)
+	at org.eclipse.core.internal.runtime.PlatformURLConverter.toFileURL(PlatformURLConverter.java:37)
+	at org.eclipse.core.runtime.FileLocator.toFileURL(FileLocator.java:263)
+	at org.eclipse.wildwebdeveloper.xml.internal.ui.preferences.XMLCatalogs.createURI(XMLCatalogs.java:139)
+	at org.eclipse.wildwebdeveloper.xml.internal.ui.preferences.XMLCatalogs.lambda$3(XMLCatalogs.java:87)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:658)
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:274)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:497)
+	at org.eclipse.wildwebdeveloper.xml.internal.ui.preferences.XMLCatalogs.getWTPExtensionCatalog(XMLCatalogs.java:65)
+	at org.eclipse.wildwebdeveloper.xml.internal.ui.preferences.XMLCatalogs.getAllCatalogs(XMLCatalogs.java:52)
+	at org.eclipse.wildwebdeveloper.xml.internal.ui.preferences.XMLPreferenceConstants.storePreferencesToLemminxOptions(XMLPreferenceConstants.java:90)
+	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.mergeCustomInitializationOptions(XMLLanguageServer.java:163)
+	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.getInitializationOptions(XMLLanguageServer.java:158)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$8(LanguageServerWrapper.java:353)
+	at java.base/java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1072)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1705)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1692)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1020)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2022-07-06 12:19:20.925
+!MESSAGE Several ports (8005, 8080) required by Tomcat v8.5 Server at localhost are already in use. The server may already be running in another process, or a system process may be using the port. To start this server you will need to stop the other process or change the port number(s).
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2022-07-06 12:19:29.134
+!MESSAGE Several ports (8005, 8080) required by Tomcat v8.5 Server at localhost are already in use. The server may already be running in another process, or a system process may be using the port. To start this server you will need to stop the other process or change the port number(s).
+
+!ENTRY org.eclipse.wst.server.core 4 0 2022-07-06 12:22:02.180
+!MESSAGE Server Tomcat v8.5 Server at localhost failed to start.
+
+!ENTRY org.eclipse.wst.server.core 4 0 2022-07-06 12:22:06.389
+!MESSAGE Server Tomcat v8.5 Server at localhost failed to start.
+
+!ENTRY org.eclipse.wst.server.core 4 0 2022-07-06 12:22:32.865
+!MESSAGE Server Tomcat v8.5 Server at localhost failed to start.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-07-06 12:22:34.488
+!MESSAGE Using unsafe http transport to retrieve http://download.jboss.org/jbosstools/static/photon/stable/updates/core/4.24.0.Final/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-07-06 12:22:34.722
+!MESSAGE Using unsafe http transport to retrieve http://download.jboss.org/jbosstools/static/photon/stable/updates/central/4.24.0.Final/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-07-06 12:22:35.617
+!MESSAGE Using unsafe http transport to retrieve http://download.jboss.org/jbosstools/targetplatforms/jbtcentraltarget/4.24.0.Final-SNAPSHOT/REPO/, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.wst.server.core 4 0 2022-07-06 12:22:42.669
+!MESSAGE Server Tomcat v8.5 Server at localhost failed to start.
+
+!ENTRY org.eclipse.wst.server.core 4 0 2022-07-06 12:22:57.751
+!MESSAGE Server Tomcat v8.5 Server at localhost failed to start.
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2022-07-06 12:24:17.144
+!MESSAGE Several ports (8005, 8080) required by Tomcat v8.5 Server at localhost are already in use. The server may already be running in another process, or a system process may be using the port. To start this server you will need to stop the other process or change the port number(s).
+
+!ENTRY org.eclipse.wst.validation 4 0 2022-07-06 14:13:47.515
+!MESSAGE OperationCanceledException
+!STACK 0
+org.eclipse.core.runtime.OperationCanceledException: 
+	at org.eclipse.wst.validation.internal.FilterUtil.checkCanceled(FilterUtil.java:76)
+	at org.eclipse.wst.validation.internal.FilterUtil$2.visit(FilterUtil.java:610)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:67)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:56)
+	at org.eclipse.wst.validation.internal.FilterUtil.loadDeltas(FilterUtil.java:647)
+	at org.eclipse.wst.validation.internal.operations.ValidationOperation.loadFileDeltas(ValidationOperation.java:547)
+	at org.eclipse.wst.validation.internal.operations.ValidationOperation.getFileDeltas(ValidationOperation.java:519)
+	at org.eclipse.wst.validation.internal.operations.ValidationOperation.preValidate(ValidationOperation.java:791)
+	at org.eclipse.wst.validation.internal.operations.ValidationOperation.run(ValidationOperation.java:653)
+	at org.eclipse.wst.validation.internal.operations.ValidationBuilder.build(ValidationBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:860)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:232)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:281)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:334)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:337)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:392)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:417)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:161)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:255)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-06 14:23:05.480
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-06 14:23:05.482
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-06 14:26:10.108
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-06 14:26:10.112
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-06 14:27:16.980
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-06 14:27:16.981
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-06 14:28:08.292
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-06 14:28:08.293
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-06 14:28:11.517
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-06 14:28:11.518
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-06 14:39:27.902
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-06 14:39:27.902
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-06 16:49:56.408
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-06 16:49:56.409
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-06 17:52:07.387
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-06 17:52:07.388
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-06 17:52:18.771
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-06 17:52:18.772
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-06 17:53:11.001
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-06 17:53:11.001
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-06 17:54:18.915
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-07-06 17:54:18.915
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
