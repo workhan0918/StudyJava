@@ -36,8 +36,6 @@ public class UserAddServlet extends HttpServlet {
 		String addr1 = request.getParameter("addr1");
 		String addr2 = request.getParameter("addr2");
 		
-	
-		
 		//2. 유효성 검증 및 반환
 		List<String> errorMsgs = new ArrayList<>();
 		if(userId == null || userId.length() == 0) {
@@ -53,6 +51,7 @@ public class UserAddServlet extends HttpServlet {
 			dispatcher.forward(request, response);
 			return;
 		}
+		
 		User2 user2 = new User2();
 		user2.setUserId(userId);
 		user2.setPasswd(passwd);

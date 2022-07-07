@@ -12,8 +12,30 @@ public class User2 implements Serializable {
 	private String ssn;
 	private String email;
 	private String addr;
+	private String uid;
+	private String date;
 	
 	
+	public String getUid() {
+		return uid;
+	}
+
+
+	public String getDate() {
+		return date;
+	}
+
+
+	public void setDate(String date) {
+		this.date = date;
+	}
+
+
+	public void setUid(String uid) {
+		this.uid = uid;
+	}
+
+
 	public User2() {
 		
 	}
@@ -75,6 +97,11 @@ public class User2 implements Serializable {
 
 	public void setSsn(String ssn) {
 		this.ssn = ssn;
+	}
+	
+	@Override
+	public String toString() {
+		return email;
 	}
 
 

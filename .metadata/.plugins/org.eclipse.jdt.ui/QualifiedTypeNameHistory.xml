@@ -1,15 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.lang.InstantiationError"/>
-    <fullyQualifiedTypeName name="com.varxyz.banking.domain.InsufficientException"/>
-    <fullyQualifiedTypeName name="com.varxyz.banking.domain.SavingsAccount"/>
-    <fullyQualifiedTypeName name="com.varxyz.banking.domain.CheckingAccount"/>
-    <fullyQualifiedTypeName name="java.util.Set"/>
-    <fullyQualifiedTypeName name="java.util.HashMap"/>
-    <fullyQualifiedTypeName name="java.util.Map"/>
-    <fullyQualifiedTypeName name="com.varxyz.banking.domain.CustomerService"/>
-    <fullyQualifiedTypeName name="java.util.Collection"/>
-    <fullyQualifiedTypeName name="com.varxyz.banking.domain.Customer"/>
     <fullyQualifiedTypeName name="com.varxyz.banking.domain.CustomerServiceImpl2"/>
     <fullyQualifiedTypeName name="com.varxyz.banking.domain.AccountService"/>
     <fullyQualifiedTypeName name="com.mysql.cj.xdevapi.Statement"/>
@@ -23,11 +13,7 @@
     <fullyQualifiedTypeName name="com.varxyz.jv251.exception.OverdraftException"/>
     <fullyQualifiedTypeName name="java.io.IOException"/>
     <fullyQualifiedTypeName name="java.io.FileOutputStream"/>
-    <fullyQualifiedTypeName name="java.util.Properties"/>
     <fullyQualifiedTypeName name="java.io.FileInputStream"/>
-    <fullyQualifiedTypeName name="java.lang.ClassNotFoundException"/>
-    <fullyQualifiedTypeName name="java.sql.Connection"/>
-    <fullyQualifiedTypeName name="java.sql.SQLException"/>
     <fullyQualifiedTypeName name="java.sql.ResultSet"/>
     <fullyQualifiedTypeName name="com.varxyz.jv251.dao.DataSourceManager"/>
     <fullyQualifiedTypeName name="com.varxyz.jv251.domain.SavingsAccount"/>
@@ -58,6 +44,20 @@
     <fullyQualifiedTypeName name="java.io.InputStreamReader"/>
     <fullyQualifiedTypeName name="java.io.BufferedReader"/>
     <fullyQualifiedTypeName name="java.lang.Override"/>
-    <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+    <fullyQualifiedTypeName name="javax.servlet.ServletContextEvent"/>
+    <fullyQualifiedTypeName name="java.awt.Event"/>
+    <fullyQualifiedTypeName name="org.w3c.dom.events.Event"/>
+    <fullyQualifiedTypeName name="java.util.Properties"/>
     <fullyQualifiedTypeName name="java.sql.DriverManager"/>
+    <fullyQualifiedTypeName name="java.sql.Connection"/>
+    <fullyQualifiedTypeName name="java.lang.ClassNotFoundException"/>
+    <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
+    <fullyQualifiedTypeName name="org.graalvm.compiler.nodes.KillingBeginNode"/>
+    <fullyQualifiedTypeName name="java.lang.IllegalArgumentException"/>
+    <fullyQualifiedTypeName name="javax.naming.NameParser"/>
+    <fullyQualifiedTypeName name="com.mysql.cj.x.protobuf.MysqlxPrepare.Prepare"/>
+    <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+    <fullyQualifiedTypeName name="com.varxyz.jv300.mod009.DataSource"/>
+    <fullyQualifiedTypeName name="java.sql.SQLException"/>
+    <fullyQualifiedTypeName name="com.varxyz.jv300.mod009.UserDao"/>
 </qualifiedTypeNameHistroy>

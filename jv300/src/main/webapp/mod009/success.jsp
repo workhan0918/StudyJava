@@ -32,7 +32,8 @@
 		<h3>회원가입되었습니다.</h3>
 		<jsp:useBean id="user2" class="com.varxyz.jv300.mod009.User2" scope="request"/>
 		아이디 : <jsp:getProperty property="userId" name="user2"/><br>
-		이름 : <jsp:getProperty property="userName" name="user2"/>
+		이름 : <jsp:getProperty property="userName" name="user2"/><br>
+		주소 : <jsp:getProperty property="addr" name="user2"/><br>
 	</div>
 	<div id="footer">
 		<%@ include file="/incl/footer.jsp"%>

@@ -102,11 +102,16 @@ CREATE TABLE USER_TABLE (
    ssn         	VARCHAR(10)    	NOT NULL,
    userId   	VARCHAR(16)   	NOT NULL,
    passwd      	VARCHAR(60)    	NOT NULL,
+   email		VARCHAR(60)		NOT NULL,
    addr1		VARCHAR(60)		NOT NULL,
    regDate      TIMESTAMP    	NOT NULL   DEFAULT CURRENT_TIMESTAMP
 )AUTO_INCREMENT = 1;
 
 SELECT * FROM USER_TABLE;
+
+SELECT userId, passwd FROM USER_TABLE;
+
+SELECT userId, passwd FROM USER_TABLE WHERE userId = "Dao";
 
 
 
