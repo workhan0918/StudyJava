@@ -20143,3 +20143,7 @@ org.eclipse.core.runtime.CoreException: Could not read maven project
 2022-07-08 12:18:00,279 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
 2022-07-08 12:18:00,281 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2022-07-08 12:18:00,281 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Hbackend\eclipse-workspace\jv300\src\test\resources
+2022-07-08 14:35:58,969 [Worker-145: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-07-08 14:35:58,969 [Worker-145: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-07-08 14:35:58,970 [Worker-145: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-07-08 14:35:58,970 [Worker-145: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Hbackend\eclipse-workspace\jv300\src\test\resources
