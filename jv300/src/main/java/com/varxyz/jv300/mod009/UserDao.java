@@ -20,6 +20,7 @@ public class UserDao {
 	
 	}
 	
+	// 유저를 추가해주는 메소드
 	public void addUser(User2 user) {
 		System.out.println("addUser");
 		String sql = "INSERT INTO USER_TABLE (name, ssn, userId, passwd, email, addr1)"
@@ -45,7 +46,7 @@ public class UserDao {
 				e.printStackTrace();
 			}
 	}
-	
+	// 모든 유저를 조회하는 메소드
 	public List<User2> findAllUser() {
 		String sql = "SELECT * FROM USER_TABLE";
 		
@@ -80,10 +81,10 @@ public class UserDao {
 		}
 			return userList;
 	}
-
+	// 로그인 유효성 검사해주는 메소드
 	public boolean isValidUser(String userId, String passwd) {
 		String sql = "SELECT userId, passwd FROM USER_TABLE WHERE userId = ?";
-		
+		boolean result = false;
 		try {
 			Connection con = null;
 			PreparedStatement pstmt = null;
@@ -103,9 +104,7 @@ public class UserDao {
 				}
 
 				if(userId.equals(getId) && passwd.equals(getPw)) {
-					return true;
-				}else {
-					return false;
+					result = true;
 				}
 			}finally {
 				datasource.close(rs, pstmt, con);
@@ -113,6 +112,6 @@ public class UserDao {
 		}catch (SQLException e) {
 			e.printStackTrace();
 		}
-		return false;
+		return result;
 	}
 }

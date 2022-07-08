@@ -8,6 +8,8 @@
 </head>
 <body>
 	<h3>MY PAGE</h3>
-	<a href='<c:url value="logout" />'>로그아웃</a>
+		환영합니다 ${userId}님<br>
+	<a href='<c:url value="/mod010/logout" />'>로그아웃</a><br>
+	<label>Last Access Time : </label> ${lastAccessTime}
 </body>
 </html>

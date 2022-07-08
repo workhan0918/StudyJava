@@ -27,7 +27,7 @@ public class LoginServlet extends HttpServlet {
 		
 		String userId = request.getParameter("userId");
 		String passwd = request.getParameter("passwd");
-
+		
 		//요청 파라메터 검증
 		if(!userService.isValidUser(userId, passwd)){
 			request.getRequestDispatcher("login.jsp").forward(request, response);
@@ -35,7 +35,7 @@ public class LoginServlet extends HttpServlet {
 		}
 		
 		HttpSession session = request.getSession(true);
-		session.setAttribute("userId", userId);
+		session.setAttribute("userId", userId); // 여기서 setAttribute해준 것은 mypage까지 전송됨
 		System.out.println("Login Complete!");
 		response.sendRedirect("mypage");
 	}
