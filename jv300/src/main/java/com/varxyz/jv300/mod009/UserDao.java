@@ -114,4 +114,36 @@ public class UserDao {
 		}
 		return result;
 	}
+
+	public User2 findUserToId(String userId) {
+		String sql = "SELECT userId, passwd, name, ssn, email, addr1 FROM USER_TABLE WHERE userId = ?";
+		User2 getUser = new User2();
+		try {
+			Connection con = null;
+			PreparedStatement pstmt = null;
+			ResultSet rs = null;
+			try {
+				con = datasource.getConnection();
+				pstmt = con.prepareStatement(sql);
+				pstmt.setString(1, userId);
+				rs = pstmt.executeQuery();
+				
+				
+				while(rs.next()) {
+					getUser.setUserId(rs.getString("userId"));
+					getUser.setPasswd(rs.getString("passwd"));
+					getUser.setUserName(rs.getString("name"));
+					getUser.setEmail(rs.getString("email"));
+					getUser.setSsn(rs.getString("ssn"));
+					getUser.setAddr(rs.getString("addr1"));
+				}
+			}finally {
+				datasource.close(rs, pstmt, con);
+				
+			}
+		}catch (SQLException e) {
+			e.printStackTrace();
+		}
+		return getUser;
+	}
 }

@@ -24,4 +24,8 @@ public class UserService2 {
 		return userDao.isValidUser(userId, passwd);
 		
 	}
+	
+	public User2 findUserToId(String user) {
+		return userDao.findUserToId(user);
+	}
 }

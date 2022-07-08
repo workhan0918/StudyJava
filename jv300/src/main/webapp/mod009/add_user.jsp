@@ -51,11 +51,15 @@
 						<br>
 			상세 주소 :	<input type="text" name="addr2">
 			<br>
-			<input style='margin-top: 20px;' type="submit" value="제출">
+			<input style='margin-top: 20px;' type="submit" value="가입">
 		</form>
 		<br>
 		<form action="find_user.do" method="post">
-			<input type="submit" value="회원조회">
+			<input type="submit" value="회원 전체 조회">
+		</form>
+		<form action="findiduser" method="post">
+			<input type="text" name="findUser">
+			<input type="submit" value="ID로 회원 검색">
 		</form>
 	
 	</div>
