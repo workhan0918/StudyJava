@@ -21,7 +21,7 @@ public class FindUserServlet extends HttpServlet {
 		
 	public void init() throws ServletException {
 		super.init();
-	}
+	} 
 	
 	private static List<User2> userList;
 	
