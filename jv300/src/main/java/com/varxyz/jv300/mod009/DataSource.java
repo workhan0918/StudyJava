@@ -6,7 +6,6 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-import com.mysql.cj.x.protobuf.MysqlxPrepare.Prepare;
 
 public class DataSource {
 	private String jdbcDriver;
