@@ -42,7 +42,7 @@ public class CustomerDao {
 		
 	}
 	
-	// 전체 고객 갯수 조회
+	// 전체 고객수 조회
 	public long countCustomers() {
 		String sql = "SELECT count(*) FROM Customer";
 		return jdbcTemplate.queryForObject(sql, Long.class);
