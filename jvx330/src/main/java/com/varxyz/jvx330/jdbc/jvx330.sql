@@ -36,3 +36,5 @@ SELECT aid, customerId, accountNum, accType, balance, interestRate, overAmount, 
 -- regDate Column이Account, Customer 두 테이블에 다 있기 때문에 어디 Column인지 정해줘야한다 ex) a.regDate
 
 DROP TABLE Account;
+
+DROP TABLE Customer;
